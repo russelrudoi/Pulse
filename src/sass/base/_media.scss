@@ -1,0 +1,137 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .benefits {
+        &__icon {
+            width: 206px;
+        }
+
+        &__descr {
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header {
+        &__logo {
+            width: 220px;
+        }
+
+        &__official {
+            display: none;
+        }
+
+        &__phone {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .button {
+            width: 170px;
+            height: 40px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+
+    .benefits {
+        padding-bottom: 24px;
+
+        &__wrapper {
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__icon {
+            width: 320px;
+            margin-bottom: 40px;
+        }
+
+        &__header {
+            font-size: 24px;
+        }
+
+        &__descr {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 10px 0 10px;
+    }
+
+    .header {
+        &__logo {
+            width: 250px;
+        }
+
+        &__contacts {
+            display: none;
+        }
+    }
+
+    .promo {
+        &__header {
+            
+            font-size: 30px;
+        }
+
+        &__subheader {
+            font-size: 19px;
+        }
+
+        &__icons {
+            width: 300px;
+        }
+
+        &__icon {
+            width: 100px;
+            font-size: 13px;
+        }
+
+        .button {
+            width: 280px;
+            height: 45px;
+        }
+    }
+
+    .benefits {
+        .title {
+            font-size: 26px;
+        }
+        &__icon {
+            width: 300px;
+        }
+        &__header {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}
